@@ -17,9 +17,6 @@ def wait_for_question(questions_answered)
   give_answer(question, questions_answered)
 end
 
-def ask_question(questions_answered)
-end
-
 def give_answer(question, questions_answered)
   if question.include?("bye") || question.include?("exit") || question.include?("quit")
     puts "Come back soon again"
